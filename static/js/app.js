@@ -19,10 +19,13 @@ function buildTable(data) {
 
         //for each row wrap the data in a td to make it a cell in a table
         Object.values(dataRow).forEach((val) => {
+
             //append td onto each row
             let cell = row.append("td");
             cell.text(val);
+        
         });//end inner for each
 
     });//end outter for each
-}//end function scope
+
+}//end buildTable func scope
