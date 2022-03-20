@@ -12,7 +12,7 @@ function buildTable(data) {
 
     //each dataRow in data
     //to append a row and cells for each value
-    data.array.forEach((dataRow) => {
+    data.forEach((dataRow) => {
 
         //wrap each entry in data.js in a tr tag onto the tbody
         let row = tbody.append("tr");
